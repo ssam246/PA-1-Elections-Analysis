@@ -178,7 +178,7 @@
         $.ajax({
             'async': false,
             'global': false,
-            'url': "c:\Users\samst\Downloads\BucksResults-master\BucksResults-master\data\bucks-results-11-15.json",
+            'url': "https://github.com/ssam246/PA-1-Elections-Analysis/blob/ccbd22b3747f0b2732cc3dc162aeef1a1e5ef8d5/BucksResults-master/BucksResults-master/data/bucks-results-11-15.json",
             'dataType': "json",
             'success': function (data) {
                 results = groupBy(data, "Precinct");
@@ -189,7 +189,7 @@
         });            
 
         var geojsonLayer;                                       
-        geojsonLayer = new L.GeoJSON.AJAX("c:\Users\samst\Downloads\BucksResults-master\BucksResults-master\data\Bucks_County_Voting_Precincts.geojson", {
+        geojsonLayer = new L.GeoJSON.AJAX("https://github.com/ssam246/PA-1-Elections-Analysis/blob/ccbd22b3747f0b2732cc3dc162aeef1a1e5ef8d5/BucksResults-master/BucksResults-master/data/Bucks_County_Voting_Precincts.geojson", {
             style: function(featureData) {
                 var voteMargin = getVoteMarginByPrecinct(featureData.properties.NAME10_1);
                 var _color = getColor(voteMargin)
