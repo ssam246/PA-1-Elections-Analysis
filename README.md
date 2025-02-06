@@ -56,5 +56,5 @@ pip install pandas numpy matplotlib seaborn plotly scikit-learn geopandas
 ### Step 1: Clone the Repository
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/your_username/PA-1-2024-Election-Analysis.git
+git clone https://github.com/ssam246/PA-1-2024-Election-Analysis.git
 cd PA-1-2024-Election-Analysis
